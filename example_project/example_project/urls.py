@@ -19,7 +19,7 @@ from django.contrib import admin
 from app import views
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-    url(r'^robokassa/', include('robokassa.urls')),
-    url(r'^pay/(?P<order_id>\d+)/$', views.pay_with_robokassa),
+    url(r"^admin/", admin.site.urls),
+    url(r"^robokassa/", include("robokassa.urls")),
+    url(r"^pay/(?P<order_id>\d+)/$", views.pay_with_robokassa),
 ]

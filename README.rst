@@ -23,7 +23,7 @@ ROBOKASSA (http://docs.robokassa.ru/). Приложение реализует
 
     $ python manage.py migrate
 
-Для работы требуется Django 1.11 или 2.0. Поддерживаются Python 2.7 и >=3.4.
+Для работы требуется Django 1.11 или 2.0. Поддерживаются Python 3.
 
 Настройка
 =========
